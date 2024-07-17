@@ -1,0 +1,25 @@
+.campo_texto {
+    margin: 24px 0;
+}
+
+.campo_texto label {
+    color: var(--cor-white);
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.campo_texto input {
+    background-color: var(--cor-background-input);
+    color: var(--cor-light-grey);
+    box-shadow: 10px 10px 30px rgba(0, 0, 0.06);
+    width: 100%;
+    border: 3px solid var(--cor-background-input);
+    border-radius: 10px;
+    font-size: 24px;
+    padding: 24px;
+    box-sizing: border-box;
+}

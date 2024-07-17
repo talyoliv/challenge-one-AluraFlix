@@ -1,0 +1,63 @@
+.main {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.categoria {
+    width: 100%;    
+    max-height: 469.92px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 40px;
+    padding: 32px;
+    background-color: var(--cor-dark-grey);    
+    margin: 32px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.categoria h3 {
+    display: inline-block;
+    width: 286px;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37.5px;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    color: var(--cor-white);
+}
+
+.categoriaCardVideo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    width: 856px;   
+    flex-wrap: wrap;
+    gap: 40px;
+    height: 319.92px;
+    border-radius: 7px 7px 16px 16px;
+    box-sizing: border-box;
+}
+
+@media (min-width: 780px) {
+    .categoria h3 {
+        width: 432px;
+    }
+
+    .categoriaCardVideo {
+        width: 894.24px;
+    }
+}
+
+@media (min-width: 1136px) {
+    .categoria {
+        overflow-x: hidden;
+    }
+
+    .categoriaCardVideo {
+        width: auto;
+    }
+}

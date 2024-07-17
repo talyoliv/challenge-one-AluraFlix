@@ -1,0 +1,34 @@
+:root {
+  --fonte: "Roboto", sans-serif;
+
+  --cor-dark-grey: #262626;
+  --cor-light-grey: #A5A5A5;
+  --cor-black: #000000;
+  --cor-black2:#03122F;
+  --cor-azul-escuro: #2271D1;
+  --cor-azul-claro: #6BD1FF;
+  --cor-verde: #00C86F;
+  --cor-amarela: #FFBA05;
+  --cor-vermelho-error: #E53935;
+  --cor-white: #FFFFFF;
+  --cor-white-smoke: #F5F5F5;
+  --cor-background-button: #2271D13D;
+  --cor-background-input: #191919;
+}
+
+body {
+  margin: 0;
+  font-family: var(--fonte);
+  background-color: var(--cor-dark-grey);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  text-decoration: none;
+}
